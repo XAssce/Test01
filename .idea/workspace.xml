@@ -1,0 +1,258 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="1b9bd403-c76d-4baf-a301-954bba2625f3" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/resources/mapper/StudentMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/js/jquery-3.5.1.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/demo/controller/HelloController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/demo/controller/HelloController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/demo/dao/StudentMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/demo/dao/StudentMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/demo/service/StudentService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/demo/service/StudentService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/demo/service/StudentServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/demo/service/StudentServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/addStudent.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/addStudent.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/updateStudent.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/updateStudent.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/demo/controller/HelloController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/demo/controller/HelloController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/demo/dao/StudentMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/demo/dao/StudentMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/demo/service/StudentService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/demo/service/StudentService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/demo/service/StudentServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/demo/service/StudentServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/addStudent.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/addStudent.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/updateStudent.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/updateStudent.html" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="@localhost" type="feb32156:DbDataSourceImpl" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="test: schema" type="76f4a085:MysqlImplModel$Schema" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="test: schema" type="76f4a085:MysqlImplModel$Schema" />
+        <item name="student: table" type="285a2a93:MysqlImplModel$Table" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Jsp File" />
+        <option value="Interface" />
+        <option value="Class" />
+        <option value="HTML File" />
+        <option value="Mapping" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="REBASE" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1o0XWTVOhQadINr99PG3QybilqY" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="mysql" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../aiyunTest" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\IDEA项目\Test01\src\main\resources\static" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\IDEA项目\Test01\src\main\resources\templates\js" />
+      <recent name="D:\IDEA项目\Test01\src\main" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="Test01Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="Test01" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.demo.Test01Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="1b9bd403-c76d-4baf-a301-954bba2625f3" name="Default Changelist" comment="" />
+      <created>1612424512931</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1612424512931</updated>
+      <workItem from="1612424516143" duration="5629000" />
+      <workItem from="1612491559806" duration="7892000" />
+      <workItem from="1612533091099" duration="632000" />
+      <workItem from="1612574521370" duration="19178000" />
+      <workItem from="1612627052436" duration="1615000" />
+      <workItem from="1612664193196" duration="1870000" />
+      <workItem from="1612667783911" duration="440000" />
+      <workItem from="1612709783068" duration="1792000" />
+      <workItem from="1612758288737" duration="1193000" />
+      <workItem from="1612794910839" duration="598000" />
+      <workItem from="1612832538332" duration="7084000" />
+      <workItem from="1612867393604" duration="1258000" />
+      <workItem from="1612926391019" duration="586000" />
+      <workItem from="1612960314310" duration="2198000" />
+      <workItem from="1613026303191" duration="5002000" />
+      <workItem from="1613092493323" duration="4116000" />
+      <workItem from="1613122236230" duration="683000" />
+      <workItem from="1613181426999" duration="9489000" />
+      <workItem from="1613207757205" duration="1559000" />
+      <workItem from="1613217010262" duration="11177000" />
+      <workItem from="1613231176430" duration="263000" />
+      <workItem from="1613264693879" duration="1042000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="LAST_COMMIT_MESSAGE" value="" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="368" y="74" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1612496399866">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="368" y="74" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1612496399866" />
+    <state x="574" y="121" key="#com.intellij.ide.util.MemberChooser" timestamp="1613228029585">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="574" y="121" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1613228029585" />
+    <state x="593" y="318" key="#com.intellij.javaee.module.view.common.J2EE.J2EEDeploymentDescriptorLocationPanel.changeDDPath" timestamp="1612427505630">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="593" y="318" key="#com.intellij.javaee.module.view.common.J2EE.J2EEDeploymentDescriptorLocationPanel.changeDDPath/0.0.1536.824@0.0.1536.824" timestamp="1612427505630" />
+    <state x="557" y="318" key="#com.intellij.javaee.module.view.web.EditWebRootDialog" timestamp="1612427508960">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="557" y="318" key="#com.intellij.javaee.module.view.web.EditWebRootDialog/0.0.1536.824@0.0.1536.824" timestamp="1612427508960" />
+    <state x="372" y="5" key="CommitChangelistDialog2" timestamp="1613230374365">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="372" y="5" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1613230374365" />
+    <state x="549" y="167" key="FileChooserDialogImpl" timestamp="1613222583083">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1613222583083" />
+    <state width="1493" height="576" key="GridCell.Tab.0.bottom" timestamp="1613231445777">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="576" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1613231445777" />
+    <state width="1493" height="576" key="GridCell.Tab.0.center" timestamp="1613231445777">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="576" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1613231445777" />
+    <state width="1493" height="576" key="GridCell.Tab.0.left" timestamp="1613231445777">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="576" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1613231445777" />
+    <state width="1493" height="576" key="GridCell.Tab.0.right" timestamp="1613231445777">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="576" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1613231445777" />
+    <state width="1493" height="576" key="GridCell.Tab.1.bottom" timestamp="1613231445778">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="576" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1613231445778" />
+    <state width="1493" height="576" key="GridCell.Tab.1.center" timestamp="1613231445777">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="576" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1613231445777" />
+    <state width="1493" height="576" key="GridCell.Tab.1.left" timestamp="1613231445777">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="576" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1613231445777" />
+    <state width="1493" height="576" key="GridCell.Tab.1.right" timestamp="1613231445777">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="576" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1613231445777" />
+    <state x="249" y="0" key="SettingsEditor" timestamp="1612427513067">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="249" y="0" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1612427513067" />
+    <state x="548" y="235" width="439" height="350" key="com.intellij.database.psi.DbRenamePsiElementProcessor.DbRenameDialog" timestamp="1612579961809">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="548" y="235" width="439" height="350" key="com.intellij.database.psi.DbRenamePsiElementProcessor.DbRenameDialog/0.0.1536.824@0.0.1536.824" timestamp="1612579961809" />
+    <state x="449" y="236" key="com.intellij.ide.util.TipDialog" timestamp="1613264778166">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="449" y="236" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1613264778166" />
+    <state x="562" y="329" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1613230382441">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="562" y="329" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1536.824@0.0.1536.824" timestamp="1613230382441" />
+    <state x="354" y="117" key="new project wizard" timestamp="1612667830309">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="354" y="117" key="new project wizard/0.0.1536.824@0.0.1536.824" timestamp="1612667830309" />
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1612665909944">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1612665909944" />
+  </component>
+</project>

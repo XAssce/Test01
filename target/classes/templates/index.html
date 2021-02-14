@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="https://www.thymeleaf.org">
+
+<head
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link href="https://cdn.staticfile.org/twitter-bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+    <script th:src="@{/js/jquery-3.5.1.js}"></script>
+</head>
+<body>
+
+
+    <div class="container">
+        <div class="row">
+            <div class="col-12-column">
+                <table class="table">
+                    <tr>
+                        <td>
+                            <a href="/toAddStudent" class="btn btn-primary">新增学生</a>
+                        </td>
+                        <td>
+                            <a href="/index" class="btn btn-primary">显示所有学生</a>
+                        </td>
+                        <td>
+                            <a href="/deleteChoosedId" class="btn btn-primary">批量删除</a>
+                        </td>
+
+                        <td class="col-6-column table">
+                            <form style="float:right;" method="post" th:action="@{/selectStudentByName}">
+                                <span style="color: red;font-weight: bold" th:value="${error}"></span>
+                                <input type="text" name="name" placeholder="请输入想查询数据的名字">
+                                <input type="submit" class="btn btn-primary" value="查询">
+                            </form>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+
+
+        <div class="row">
+            <div class="col-12-column">
+                <table class="table-striped table-hover table">
+                    <thead>
+                        <tr>
+                            <th style="text-align: center">姓名</th>
+                            <th style="text-align: center">年龄</th>
+                            <th style="text-align: center">家庭住址</th>
+                            <th style="text-align: center">操作</th>
+                        </tr>
+                    </thead>
+
+                    <tbody class="form-group">
+                        <tr th:each="ss:${list}" style="text-align: center">
+                            <td>
+                                <input type="checkbox" th:value="${ss.id}" name="ids">
+                            </td>
+                            <td th:text="${ss.sname}"></td>
+                            <td th:text="${ss.sage}"></td>
+                            <td th:text="${ss.saddress}"></td>
+                            <td>
+                                <a th:href="@{'/toUpdateStudent/'+${ss.id}}">修改</a>
+                                &nbsp;|&nbsp;
+                                <a th:href="@{'/deleteStudent/'+${ss.id}}">删除</a>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+
+
+
+</body>
+</html>
